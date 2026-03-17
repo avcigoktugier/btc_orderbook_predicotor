@@ -1,5 +1,5 @@
 # BTC/USDT Orderbook ML + Polymarket Otomatik İşlem Botu
-
+!!! Bu bot geliştirme aşamasındadır, yatırım tavsiyesi içermez!!!
 ## Kapsamlı Kurulum ve Kullanım Rehberi
 
 ---
