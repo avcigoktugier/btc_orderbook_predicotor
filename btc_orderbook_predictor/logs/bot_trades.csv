@@ -1,0 +1,2 @@
+timestamp,direction,amount_usdc,price,success,order_id,dry_run,mode,market,window,ml_confidence,ml_direction,btc_mid_price,chainlink_open,chainlink_current
+2026-03-17T05:05:15.633379+00:00,DOWN,0.01,0.495,True,DRY-RUN-1773723915,True,SIMULASYON,"Bitcoin Up or Down - March 18, 12:10AM-12:15AM ET",1:05-1:10 AM ET,0.9343796372413635,DOWN,74245.735,74175.87996,74175.87996

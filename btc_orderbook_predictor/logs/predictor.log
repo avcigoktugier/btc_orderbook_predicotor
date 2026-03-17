@@ -1,0 +1,135 @@
+2026-03-17 06:58:33,213 [INFO] data_collector: Borsa baðlantýsý baþarýlý: binance
+2026-03-17 06:58:33,215 [INFO] data_collector: OrderbookSnapshotCollector baþlatýldý: BTC/USDT @ binance
+2026-03-17 06:59:45,591 [INFO] data_collector: Borsa baðlantýsý baþarýlý: binance
+2026-03-17 06:59:45,591 [INFO] data_collector: OrderbookSnapshotCollector baþlatýldý: BTC/USDT @ binance
+2026-03-17 06:59:45,591 [INFO] data_collector: WebSocket stream hazýr: wss://stream.binance.com:9443/ws/btcusdt@depth20@100ms
+2026-03-17 06:59:45,593 [INFO] data_collector: Veri toplama baþladý: 60 dk, her 1.0s'de bir snapshot
+2026-03-17 07:01:24,290 [INFO] data_collector: Veri toplama kullanýcý tarafýndan durduruldu.
+2026-03-17 07:01:24,290 [INFO] data_collector: Veri toplama tamamlandý. Toplam: 78 snapshot
+2026-03-17 07:01:24,304 [INFO] data_collector: DataFrame oluþturuldu: 78 satýr, 81 sütun
+2026-03-17 07:01:24,314 [INFO] data_collector: Veri kaydedildi: D:\btc_orderbook_predictor\data\orderbook_raw.csv
+2026-03-17 07:01:24,318 [INFO] data_collector: DataFrame oluþturuldu: 78 satýr, 81 sütun
+2026-03-17 07:01:40,967 [INFO] matplotlib.font_manager: generated new fontManager
+2026-03-17 07:02:42,177 [INFO] features: Feature pipeline baþlýyor. Gelen veri: (78, 81)
+2026-03-17 07:02:42,217 [INFO] features: Snapshot özellikleri: 28 özellik
+2026-03-17 07:02:42,229 [INFO] features: Hedef deðiþken oluþturuldu: horizon=5dk, shift=300 satýr
+2026-03-17 07:02:42,232 [INFO] features: NaN temizliði: 78 -> 0 satýr (78 satýr silindi)
+2026-03-17 07:03:22,266 [INFO] data_collector: Borsa baðlantýsý baþarýlý: binance
+2026-03-17 07:03:22,267 [INFO] data_collector: OrderbookSnapshotCollector baþlatýldý: BTC/USDT @ binance
+2026-03-17 07:03:22,267 [INFO] data_collector: WebSocket stream hazýr: wss://stream.binance.com:9443/ws/btcusdt@depth20@100ms
+2026-03-17 07:03:22,267 [INFO] data_collector: Veri toplama baþladý: 60 dk, her 1.0s'de bir snapshot
+2026-03-17 07:05:28,020 [INFO] data_collector: Toplanan snapshot: 100
+2026-03-17 07:07:35,273 [INFO] data_collector: Toplanan snapshot: 200
+2026-03-17 07:09:42,463 [INFO] data_collector: Toplanan snapshot: 300
+2026-03-17 07:11:49,773 [INFO] data_collector: Toplanan snapshot: 400
+2026-03-17 07:13:56,615 [INFO] data_collector: Toplanan snapshot: 500
+2026-03-17 07:16:03,525 [INFO] data_collector: Toplanan snapshot: 600
+2026-03-17 07:18:10,811 [INFO] data_collector: Toplanan snapshot: 700
+2026-03-17 07:20:17,170 [INFO] data_collector: Veri toplama kullanýcý tarafýndan durduruldu.
+2026-03-17 07:20:17,171 [INFO] data_collector: Veri toplama tamamlandý. Toplam: 799 snapshot
+2026-03-17 07:20:17,287 [INFO] data_collector: DataFrame oluþturuldu: 799 satýr, 81 sütun
+2026-03-17 07:20:17,322 [INFO] data_collector: Mevcut veriye eklendi. Toplam: 877 satýr
+2026-03-17 07:20:17,376 [INFO] data_collector: Veri kaydedildi: D:\btc_orderbook_predictor\data\orderbook_raw.csv
+2026-03-17 07:20:17,387 [INFO] data_collector: DataFrame oluþturuldu: 799 satýr, 81 sütun
+2026-03-17 07:32:32,742 [INFO] 8 aktif BTC 5-dk market bulundu.
+2026-03-17 07:32:33,189 [INFO] 8 aktif BTC 5-dk market bulundu.
+2026-03-17 07:32:33,191 [INFO] Sýradaki market: Bitcoin Up or Down - March 17, 11:55PM-12:00AM ET (1407.4 dk kaldý)
+2026-03-17 07:32:33,191 [ERROR] py-clob-client kurulu deðil! Kurmak için: pip install py-clob-client
+2026-03-17 07:33:09,609 [INFO] 8 aktif BTC 5-dk market bulundu.
+2026-03-17 07:33:10,051 [INFO] 8 aktif BTC 5-dk market bulundu.
+2026-03-17 07:33:10,053 [INFO] Sýradaki market: Bitcoin Up or Down - March 17, 11:55PM-12:00AM ET (1406.8 dk kaldý)
+2026-03-17 07:33:10,054 [ERROR] py-clob-client kurulu deðil! Kurmak için: pip install py-clob-client
+2026-03-17 07:38:22,573 [INFO] data_collector: Borsa baðlantýsý baþarýlý: binance
+2026-03-17 07:38:22,574 [INFO] data_collector: OrderbookSnapshotCollector baþlatýldý: BTC/USDT @ binance
+2026-03-17 07:38:38,446 [INFO] features: Feature pipeline baþlýyor. Gelen veri: (877, 81)
+2026-03-17 07:38:39,033 [INFO] features: Snapshot özellikleri: 28 özellik
+2026-03-17 07:38:39,049 [INFO] features: Hedef deðiþken oluþturuldu: horizon=5dk, shift=300 satýr
+2026-03-17 07:38:39,051 [INFO] features: NaN temizliði: 877 -> 527 satýr (350 satýr silindi)
+2026-03-17 07:38:39,120 [INFO] model: OrderbookPredictor baþlatýldý: xgboost
+2026-03-17 07:38:39,786 [INFO] model: XGBoost eðitimi tamamlandý. Train Acc: 0.9620
+2026-03-17 07:38:40,240 [INFO] model: Feature importance grafiði kaydedildi: D:\btc_orderbook_predictor\models\feature_importance.png
+2026-03-17 07:38:40,242 [INFO] model: OrderbookPredictor baþlatýldý: xgboost
+2026-03-17 07:39:20,008 [INFO] data_collector: Borsa baðlantýsý baþarýlý: binance
+2026-03-17 07:39:20,009 [INFO] data_collector: OrderbookSnapshotCollector baþlatýldý: BTC/USDT @ binance
+2026-03-17 07:39:20,009 [INFO] data_collector: WebSocket stream hazýr: wss://stream.binance.com:9443/ws/btcusdt@depth20@100ms
+2026-03-17 07:39:20,010 [INFO] data_collector: Veri toplama baþladý: 60 dk, her 1.0s'de bir snapshot
+2026-03-17 07:41:25,599 [INFO] data_collector: Toplanan snapshot: 100
+2026-03-17 07:43:33,683 [INFO] data_collector: Toplanan snapshot: 200
+2026-03-17 07:45:40,822 [INFO] data_collector: Toplanan snapshot: 300
+2026-03-17 07:47:47,485 [INFO] data_collector: Toplanan snapshot: 400
+2026-03-17 07:49:54,577 [INFO] data_collector: Toplanan snapshot: 500
+2026-03-17 07:52:01,615 [INFO] data_collector: Toplanan snapshot: 600
+2026-03-17 07:54:07,597 [INFO] data_collector: Toplanan snapshot: 700
+2026-03-17 07:56:14,154 [INFO] data_collector: Toplanan snapshot: 800
+2026-03-17 07:57:38,636 [INFO] data_collector: Veri toplama kullanýcý tarafýndan durduruldu.
+2026-03-17 07:57:38,674 [INFO] data_collector: Veri toplama tamamlandý. Toplam: 866 snapshot
+2026-03-17 07:57:38,845 [INFO] data_collector: DataFrame oluþturuldu: 866 satýr, 81 sütun
+2026-03-17 07:57:38,893 [INFO] data_collector: Mevcut veriye eklendi. Toplam: 1743 satýr
+2026-03-17 07:57:39,069 [INFO] data_collector: Veri kaydedildi: D:\btc_orderbook_predictor\data\orderbook_raw.csv
+2026-03-17 07:57:39,081 [INFO] data_collector: DataFrame oluþturuldu: 866 satýr, 81 sütun
+2026-03-17 07:57:59,790 [INFO] 12 aktif BTC 5-dk market bulundu.
+2026-03-17 07:58:00,144 [INFO] 12 aktif BTC 5-dk market bulundu.
+2026-03-17 07:58:00,146 [INFO] Sýradaki market: Bitcoin Up or Down - March 18, 12:05AM-12:10AM ET (1392.0 dk kaldý)
+2026-03-17 07:58:00,147 [ERROR] py-clob-client kurulu deðil! Kurmak için: pip install py-clob-client
+2026-03-17 07:58:21,451 [INFO] OrderbookPredictor baþlatýldý: xgboost
+2026-03-17 07:58:21,451 [ERROR] Model dosyasý bulunamadý: [Errno 2] No such file or directory: 'D:\\btc_orderbook_predictor\\models\\xgboost_model.joblib'
+2026-03-17 07:59:18,731 [INFO] features: Feature pipeline baþlýyor. Gelen veri: (1743, 81)
+2026-03-17 07:59:19,592 [INFO] features: Snapshot özellikleri: 28 özellik
+2026-03-17 07:59:19,605 [INFO] features: Hedef deðiþken oluþturuldu: horizon=5dk, shift=300 satýr
+2026-03-17 07:59:19,607 [INFO] features: NaN temizliði: 1743 -> 1393 satýr (350 satýr silindi)
+2026-03-17 07:59:19,735 [INFO] model: OrderbookPredictor baþlatýldý: xgboost
+2026-03-17 07:59:20,452 [INFO] model: XGBoost eðitimi tamamlandý. Train Acc: 0.9989
+2026-03-17 07:59:20,760 [INFO] model: Feature importance grafiði kaydedildi: D:\btc_orderbook_predictor\models\feature_importance.png
+2026-03-17 07:59:20,763 [INFO] model: OrderbookPredictor baþlatýldý: xgboost
+2026-03-17 07:59:20,942 [INFO] model: XGBoost eðitimi tamamlandý. Train Acc: 0.9614
+2026-03-17 07:59:20,960 [INFO] model: Fold 1: Acc=0.5216, F1=0.6856
+2026-03-17 07:59:20,961 [INFO] model: OrderbookPredictor baþlatýldý: xgboost
+2026-03-17 07:59:21,171 [INFO] model: XGBoost eðitimi tamamlandý. Train Acc: 0.9978
+2026-03-17 07:59:21,187 [INFO] model: Fold 2: Acc=0.7672, F1=0.0000
+2026-03-17 07:59:21,189 [INFO] model: OrderbookPredictor baþlatýldý: xgboost
+2026-03-17 07:59:21,449 [INFO] model: XGBoost eðitimi tamamlandý. Train Acc: 0.9986
+2026-03-17 07:59:21,465 [INFO] model: Fold 3: Acc=0.3664, F1=0.5363
+2026-03-17 07:59:21,466 [INFO] model: OrderbookPredictor baþlatýldý: xgboost
+2026-03-17 07:59:21,784 [INFO] model: XGBoost eðitimi tamamlandý. Train Acc: 0.9989
+2026-03-17 07:59:21,800 [INFO] model: Fold 4: Acc=0.8362, F1=0.9108
+2026-03-17 07:59:21,801 [INFO] model: OrderbookPredictor baþlatýldý: xgboost
+2026-03-17 07:59:22,132 [INFO] model: XGBoost eðitimi tamamlandý. Train Acc: 0.9991
+2026-03-17 07:59:22,147 [INFO] model: Fold 5: Acc=0.9353, F1=0.9666
+2026-03-17 07:59:22,153 [INFO] model: XGBoost modeli kaydedildi: D:\btc_orderbook_predictor\models\xgboost_model.joblib
+2026-03-17 07:59:22,156 [INFO] model: Scaler kaydedildi: D:\btc_orderbook_predictor\models\scaler.joblib
+2026-03-17 07:59:22,157 [INFO] model: Feature isimleri kaydedildi: D:\btc_orderbook_predictor\models\feature_names.joblib
+2026-03-17 07:59:32,408 [INFO] model: OrderbookPredictor baþlatýldý: xgboost
+2026-03-17 07:59:32,531 [INFO] model: XGBoost modeli yüklendi.
+2026-03-17 07:59:32,533 [INFO] model: Model yüklendi. Özellik sayýsý: 64
+2026-03-17 07:59:32,533 [INFO] data_collector: WebSocket stream hazýr: wss://stream.binance.com:9443/ws/btcusdt@depth20@100ms
+2026-03-17 07:59:32,534 [INFO] data_collector: WebSocket stream baþlatýldý (arkaplan thread).
+2026-03-17 07:59:33,871 [INFO] data_collector: WebSocket baðlantýsý kuruldu.
+2026-03-17 08:00:49,773 [INFO] data_collector: WebSocket stream durduruldu.
+2026-03-17 08:00:52,282 [INFO] data_collector: WebSocket stream durduruldu.
+2026-03-17 08:00:52,384 [ERROR] data_collector: WebSocket hatasý: Event loop is closed
+2026-03-17 08:00:52,385 [ERROR] asyncio: Task was destroyed but it is pending!
+task: <Task pending name='Task-2' coro=<Connection.keepalive() done, defined at C:\Users\avcig\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\websockets\asyncio\connection.py:808> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-03-17 08:00:59,141 [INFO] OrderbookPredictor baþlatýldý: xgboost
+2026-03-17 08:00:59,238 [INFO] XGBoost modeli yüklendi.
+2026-03-17 08:00:59,240 [INFO] Model yüklendi. Özellik sayýsý: 64
+2026-03-17 08:01:02,804 [INFO] 12 aktif BTC 5-dk market bulundu.
+2026-03-17 08:01:03,161 [INFO] 12 aktif BTC 5-dk market bulundu.
+2026-03-17 08:01:03,162 [INFO] Sýradaki market: Bitcoin Up or Down - March 18, 12:10AM-12:15AM ET (1393.9 dk kaldý)
+2026-03-17 08:01:03,163 [ERROR] py-clob-client kurulu deðil! Kurmak için: pip install py-clob-client
+2026-03-17 08:01:03,164 [INFO] WebSocket stream hazýr: wss://stream.binance.com:9443/ws/btcusdt@depth20@100ms
+2026-03-17 08:01:03,165 [INFO] WebSocket stream baþlatýldý (arkaplan thread).
+2026-03-17 08:01:04,378 [INFO] WebSocket baðlantýsý kuruldu.
+2026-03-17 08:05:10,797 [INFO] Pencere açýlýþ fiyatý (Chainlink): $74,175.88 (age: 32s)
+2026-03-17 08:05:15,104 [INFO] 12 aktif BTC 5-dk market bulundu.
+2026-03-17 08:05:15,631 [INFO] 12 aktif BTC 5-dk market bulundu.
+2026-03-17 08:05:15,633 [INFO] Sýradaki market: Bitcoin Up or Down - March 18, 12:10AM-12:15AM ET (1389.7 dk kaldý)
+2026-03-17 08:05:16,272 [INFO] DRY-RUN: DOWN $0.01 @ 0.495
+2026-03-17 08:05:16,284 [INFO] Ýþlem geçmiþi kaydedildi: D:\btc_orderbook_predictor\logs\bot_trades.csv
+2026-03-17 08:08:54,593 [INFO] WebSocket stream durduruldu.
+2026-03-17 08:08:54,600 [INFO] Ýþlem geçmiþi kaydedildi: D:\btc_orderbook_predictor\logs\bot_trades.csv
+2026-03-17 08:08:56,864 [INFO] Pencere açýlýþ fiyatý (Chainlink): $74,303.41 (age: 16s)
+2026-03-17 08:08:56,864 [INFO] WebSocket stream durduruldu.
+2026-03-17 08:08:56,868 [INFO] Ýþlem geçmiþi kaydedildi: D:\btc_orderbook_predictor\logs\bot_trades.csv
+2026-03-17 08:08:57,924 [ERROR] WebSocket hatasý: Event loop is closed
+2026-03-17 08:08:57,925 [ERROR] Task was destroyed but it is pending!
+task: <Task pending name='Task-2' coro=<Connection.keepalive() done, defined at C:\Users\avcig\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\websockets\asyncio\connection.py:808> wait_for=<Future pending cb=[Task.task_wakeup()]>>

@@ -1,0 +1,33 @@
+# ============================================================
+# BTC/USDT Orderbook ML + Polymarket Bot
+# ============================================================
+# Kurulum: pip install -r requirements.txt
+# ============================================================
+
+# Veri Toplama (Data Collection)
+ccxt>=4.4.0                  # Kripto borsa API abstraction
+websockets>=12.0             # WebSocket bağlantıları
+requests>=2.31.0             # REST API çağrıları
+
+# Veri İşleme (Data Processing)
+pandas>=2.2.0                # DataFrame işlemleri
+numpy>=1.26.0                # Sayısal hesaplamalar
+
+# Makine Öğrenmesi (Machine Learning)
+scikit-learn>=1.5.0          # ML araçları, metrikler, preprocessing
+xgboost>=2.1.0               # XGBoost sınıflandırıcı
+joblib>=1.4.0                # Model kaydetme/yükleme
+
+# Görselleştirme (Visualization)
+matplotlib>=3.9.0            # Grafik çizimleri
+
+# Polymarket Entegrasyonu (Polymarket Integration)
+py-clob-client>=0.24.0       # Polymarket CLOB API Python SDK
+
+# Chainlink On-Chain Okuma (Polygon RPC)
+# Not: Ek kütüphane gerekmez - requests ile doğrudan RPC çağrısı yapılır
+# İsteğe bağlı: web3>=6.0 kurarsanız daha güvenilir on-chain okuma yapabilirsiniz
+
+# Zamanlama & Loglama (Scheduling & Logging)
+schedule>=1.2.0              # Zamanlama
+python-dotenv>=1.0.0         # .env dosyası desteği
